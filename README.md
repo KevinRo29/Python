@@ -12,27 +12,23 @@ This repository contains a collection of Python projects that showcase a range o
    - Description: A command-line application for managing to-do tasks. Users can add, delete, list, and mark tasks as completed.
    - Skills demonstrated: Data structures, command-line interaction.
 
-3. **Weather Application**
-   - Description: Provides real-time weather information for a given location using a weather forecast API. Presents data in an appealing format.
-   - Skills demonstrated: API integration, JSON data processing.
-
-4. **Contact Book**
+3. **Contact Book**
    - Description: An application to manage contacts, allowing users to create, edit, and delete entries. Data can be stored using files or simple databases.
    - Skills demonstrated: File management, data persistence.
 
-5. **Hangman Game**
+4. **Hangman Game**
    - Description: Implements the classic hangman game. Players guess a hidden word letter by letter. Uses lists and loops to control game flow.
    - Skills demonstrated: String manipulation, control structures.
 
-6. **Text Analyzer**
+5. **Text Analyzer**
    - Description: Analyzes input text to provide statistics like word count, sentence count, paragraph count, and keyword frequency.
    - Skills demonstrated: Text processing, analysis.
 
-7. **Note-taking Application**
+6. **Note-taking Application**
    - Description: Allows users to create, edit, organize, and search notes. Offers features for efficient data management.
    - Skills demonstrated: User interface design, data management.
 
-8. **Mini Adventure Game**
+7. **Mini Adventure Game**
    - Description: A text-based game where players make decisions to advance an interactive story. Features multiple paths and endings based on choices.
    - Skills demonstrated: Creativity, object-oriented programming.
 
