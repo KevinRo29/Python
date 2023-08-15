@@ -42,7 +42,7 @@ Each project is located in its respective directory. You can navigate to each pr
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.txt).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
