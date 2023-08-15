@@ -1,9 +1,11 @@
 class GameState:
     def __init__(self):
+        # Initialize the game state with default values
         self.player_name = ""
         self.story_progress = 0
 
     def advance_story(self, choice):
+        # Update the story progress based on the player's choice
         if self.story_progress == 0:
             if choice == 1:
                 self.story_progress = 1
@@ -26,6 +28,7 @@ class GameState:
                 self.story_progress = 8
 
     def display_current_scene(self):
+        # Display the current scene based on the story progress
         if self.story_progress == 0:
             print("You find yourself in a mysterious forest.")
             print("A path leads to the left, and a river to the right.")
@@ -64,20 +67,24 @@ class GameState:
             print("You've found a new home and a new beginning.")
 
 def get_player_choice():
+    # Get the player's choice and return it as an integer
     choice = int(input("Enter your choice: "))
     return choice
 
 def main():
     game_state = GameState()
 
+    # Display the introduction
     print("Welcome to the Interactive Text-Based Game!")
     game_state.player_name = input("What's your name? ")
 
-    while game_state.story_progress not in [3, 4, 7, 8]:
-        game_state.display_current_scene()
-        player_choice = get_player_choice()
-        game_state.advance_story(player_choice)
+    # Main game loop
+    while game_state.story_progress not in [3, 4, 7, 8]: # While the story is not over
+        game_state.display_current_scene() # Display the current scene
+        player_choice = get_player_choice() # Get the player's choice
+        game_state.advance_story(player_choice) # Advance the story based on the player's choice
 
+    # Display the ending based on the story progress
     if game_state.story_progress == 3:
         print("Congratulations, " + game_state.player_name + "! You've found shelter and companionship.")
     elif game_state.story_progress == 4:
