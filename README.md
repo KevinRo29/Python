@@ -24,11 +24,7 @@ This repository contains a collection of Python projects that showcase a range o
    - Description: Analyzes input text to provide statistics like word count, sentence count, paragraph count, and keyword frequency.
    - Skills demonstrated: Text processing, analysis.
 
-6. **Note-taking Application**
-   - Description: Allows users to create, edit, organize, and search notes. Offers features for efficient data management.
-   - Skills demonstrated: User interface design, data management.
-
-7. **Mini Adventure Game**
+6. **Mini Adventure Game**
    - Description: A text-based game where players make decisions to advance an interactive story. Features multiple paths and endings based on choices.
    - Skills demonstrated: Creativity, object-oriented programming.
 
